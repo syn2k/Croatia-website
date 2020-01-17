@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header {
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("gallery/krka.jpg");
+	background position: fixed;
+	height: 150vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 50px;
+	padding: 10px ;
+}
+
+ul li {
+	display: inline-block;
+	width: 170px;
+	height: 80px;
+	opacity: 0.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 300px;
+	height: auto;
+	margin: 45.5px;
+
+}
+
+.main{
+	max-width: 3000px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	transition: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.body{
+	position: absolute;
+	top: 40%;
+	
+	transition: translate(-50%,-50%);
+}
+.body h4{
+
+	color: #fff;
+	font-size: 30px;
+}
+	.body h2{
+		color: #fff;
+	font-size: 60px;
+}
+
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 37%;
+	transition: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
