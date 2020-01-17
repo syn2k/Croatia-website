@@ -1,2 +1,2 @@
 # Croatia-website
-Wwebsite made for Croatia tourism in Avishkar 2018
+Website made for Croatia tourism in Avishkar 2018
